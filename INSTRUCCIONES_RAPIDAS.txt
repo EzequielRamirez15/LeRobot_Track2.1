@@ -1,0 +1,37 @@
+
+# 🚀 Instrucciones Rápidas para Ejecutar el Proyecto LeRobotWorldwideHackathonSV
+
+## ✅ Requisitos:
+- Python 3.10 o superior
+- `pip install mujoco gym numpy`
+- Mujoco instalado (https://mujoco.org/)
+- Sistema compatible con GLX o entorno gráfico (para simulación visual)
+
+## 🧠 Cómo ejecutar el entorno Gym (solo funcional, sin visualización):
+```bash
+cd src
+python test_env.py
+```
+
+## 🤖 Cómo lanzar la simulación estilo grúa con codo (visualización MuJoCo):
+```bash
+cd src
+python simulate_grua_con_codo.py
+```
+
+## 📁 Estructura del Proyecto:
+```
+LeRobotWorldwideHackathonSV/
+├── README.md
+├── bitacora.md
+├── mujoco_models/
+│   ├── two_robot_scene.xml
+│   └── two_robot_scene_with_elbow.xml
+└── src/
+    ├── simulate_grua_con_codo.py
+    ├── simulate_two_robots.py
+    ├── test_env.py
+    └── two_robot_env.py
+```
+
+¡Listo para simular o desarrollar! 💻
